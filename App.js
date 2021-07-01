@@ -15,6 +15,7 @@ import {
   Text,
   useColorScheme,
   View,
+  Button,
 } from 'react-native';
 
 import {
@@ -66,6 +67,7 @@ const App = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Button title="TESTE DE CLIQUE" color="#841584" />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,

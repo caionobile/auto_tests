@@ -16,6 +16,10 @@ describe('Example', () => {
     await expect(element(by.text('See Your Changes'))).toBeVisible();
   });
 
+  it('should tap button', async () => {
+    await element(by.text('TESTE DE CLIQUE')).tap();
+  });
+
   it('should have "Layout" text', async () => {
     await waitFor(element(by.text('Layout')))
       .toBeVisible()
