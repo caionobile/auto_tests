@@ -20,6 +20,6 @@ describe('Example', () => {
     await waitFor(element(by.text('Layout')))
       .toBeVisible()
       .whileElement(by.id('scroll'))
-      .scroll(500, 'down');
+      .scroll(450, 'down');
   });
 });
