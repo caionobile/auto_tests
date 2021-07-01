@@ -62,6 +62,7 @@ const App = () => {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView
+        testID="scroll"
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
